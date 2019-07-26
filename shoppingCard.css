@@ -1,0 +1,124 @@
+body 
+{
+background: url("./cats.png");
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.shoppingcard {
+width: 900px;
+height: 550px;
+background-color: #FFFFFF;
+margin-top: 20px;
+border: 1px solid rgb(153, 146, 146) ;
+border-radius: 5px;
+
+}
+.totalPriceCard , .totalPriceSymbol{ 
+text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+.totalCash {
+padding: 10px;
+width: 800px;
+margin: auto;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+
+.shoppingbag {
+font-size: 30px;
+color: #826B77;
+margin-right: 20px;
+}
+
+.cattree, .catfood {
+width: 100px;
+height: 100px;
+border: 1px solid rgb(153, 146, 146) ;
+}
+
+.icons {
+   display: flex ;
+   justify-content: space-between;
+   align-items: center;
+   width: 400px;
+}
+
+.firstItem , .secondItem , .thirdItem{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 1px solid black ;
+   padding: 10px;
+   width: 800px;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+.info {
+display: flex;
+flex-direction: column; 
+align-items: center;
+text-align: center;
+}
+
+.incrementation 
+{
+width: 150px;
+display: flex;
+display: flex ;
+justify-content: space-around;
+align-items: center;
+
+} 
+
+.number {
+
+text-align: center;
+font-size: 20px;
+}
+
+.total-price {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.fas {
+color: grey; 
+cursor: pointer;
+}
+
+.button {
+
+  height: 20px;  
+
+}
+
+.fa-heart:hover {
+
+color : red;
+
+}
+
+.fa-times-circle:hover  {
+
+    color : black;
+    
+  }
+
+
+    .cat {
+color: brown;
+font-weight:600px;
+
+    }
+
+    .red {
+      color : red;  
+    }
